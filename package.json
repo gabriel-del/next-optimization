@@ -1,0 +1,21 @@
+{
+  "name": "next-optimization",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": "git@github.com:gabriel-del/next-optimization.git",
+  "author": "Gabriel Del <gabrieldelc.barros@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "@types/react": "^18.0.12",
+    "typescript": "^4.7.3"
+  }
+}
