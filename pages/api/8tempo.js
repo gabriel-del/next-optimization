@@ -7,5 +7,5 @@ function tempo(request, response) {
   });
 
 }
-
+// em /api/8tempo vai retornar sempre data atual
 export default tempo;
