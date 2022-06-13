@@ -6,6 +6,7 @@ function Tempo(props){
     <div>
       <div>{dynamicDateString} (dinâmico)</div>
       <div>{props.staticDateString} (estático)</div>
+      <a>desta forma o valor estático é atualizado a cada (pelo menos)  1s, passando por todo o processo de build</a>
     </div>
   )
 
