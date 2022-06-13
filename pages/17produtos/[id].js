@@ -12,6 +12,7 @@ export async function getStaticPaths() {
     fallback: 'blocking'
   }
 }
+// se colocar o fallback true, dá para enviar uma página logo de cara, enquanto a nova é gerada.
 
 export async function getStaticProps(context){
   await delay(5000);
