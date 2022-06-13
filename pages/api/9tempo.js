@@ -6,6 +6,7 @@ async function tempo(request, response) {
   const subscribersResponseJson = await subscriberResponse.json();
   const inscritos = subscriberResponseJson.total_subscribers;
 
+//não está pegando a api
 
   response.json({
     date: dynamicDate.toGMTString(),
