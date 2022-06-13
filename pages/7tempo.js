@@ -5,8 +5,7 @@ function Tempo(props){
   return (
     <div>
       <div>{dynamicDateString} (dinâmico)</div>
-      <div>{props.staticDateString} (estático - com delay)</div>
-      <a>supondo que o servidor esteja saturado e com delay, o delay será uma vez apenas durante o build</a>
+      <div>{props.staticDateString} (estático)</div>
     </div>
   )
 
@@ -21,7 +20,8 @@ export async function getStaticProps(){
   return {
     props: {
       staticDateString
-    }
+    },
+    revalidate: 1
   }
 }
 
